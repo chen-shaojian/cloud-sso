@@ -1,0 +1,16 @@
+monitor:
+  build: ./monitor
+  ports:
+   - "7979:7979"
+  links:
+   - discovery
+discovery:
+  build: ./discovery
+  ports:
+   - "8761:8761"
+config:
+  build: ./config
+  ports:
+   - "8888:8888"
+  links:
+   - discovery

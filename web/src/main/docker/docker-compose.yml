@@ -1,0 +1,16 @@
+haproxy:
+  build: ./haproxy
+  ports:
+   - "80:80"
+   - "70:70"
+  links:
+   - web1
+   - web2
+web1:
+  build: ./web
+  ports:
+   - "80"
+web2:
+  build: ./web
+  ports:
+   - "80"

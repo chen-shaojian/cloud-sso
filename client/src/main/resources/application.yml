@@ -1,0 +1,48 @@
+server:
+  port: 8002
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://192.168.1.215:8761/eureka/
+  instance:
+    preferIpAddress: true
+
+ribbon:
+  eureka:
+    enabled: true
+
+security:
+  ignored: /favicon.ico,/scripts/**,/styles/**,/images/**
+  sessions: ALWAYS
+  oauth2:
+      sso:
+        loginPath: /login
+      client:
+        clientId: ssoclient
+        clientSecret: ssosecret
+        accessTokenUri: http://192.168.1.82/oauth/token
+        userAuthorizationUri: http://192.168.1.82/oauth/authorize
+        clientAuthenticationScheme: form
+      resource:
+        jwt:
+          keyUri: http://192.168.1.82/oauth/token_key
+
+securityconfig:
+  logoutsuccssurl: /tosignout
+  permitall: /rest/**,/user/**
+  deniedpage: /deny
+  urlroles: /**/new/** = admin;
+            /**/edit/** = admin,editor;
+            /**/delete/** = admin
+
+spring:
+  redis:
+    host: 192.168.1.214
+    port: 6379
+    password: 12345678
+    pool:
+      max-idle: 8
+      min-idle: 0
+      max-active: 8
+      max-wait: -1

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/src/main/java/com/test/client/service/UserService.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/client/src/main/resources/static/scripts/imageselect.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/discovery" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/login" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/login/src/main/resources/static/images/home/Basisdt.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/login/src/main/resources/static/images/home/Basistopbg.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/login/src/main/resources/static/images/home/BigIconFirm.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/login/src/main/resources/static/images/home/BigIconMobile.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/login/src/main/resources/static/images/home/BigIconWebo.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/login/src/main/resources/static/images/home/Bigbg.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/login/src/main/resources/static/images/home/FourStar.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/login/src/main/resources/static/images/home/cur.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/login/src/main/resources/static/images/home/footbg.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/login/src/main/resources/static/images/home/microBoxLi.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/login/src/main/resources/static/images/home/microBoxbg.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/login/src/main/resources/static/images/home/nav-a-hover.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/login/src/main/resources/static/images/home/qutama.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/login/src/main/resources/static/images/home/top-bg.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/login/src/main/resources/static/styles/home.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/monitor" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/neo4j" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/security" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/src/main/resources/static/images/home/Basisdt.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/src/main/resources/static/images/home/Basistopbg.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/src/main/resources/static/images/home/BigIconFirm.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/src/main/resources/static/images/home/BigIconMobile.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/src/main/resources/static/images/home/BigIconWebo.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/src/main/resources/static/images/home/Bigbg.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/src/main/resources/static/images/home/FourStar.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/src/main/resources/static/images/home/cur.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/src/main/resources/static/images/home/footbg.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/src/main/resources/static/images/home/microBoxLi.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/src/main/resources/static/images/home/microBoxbg.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/src/main/resources/static/images/home/nav-a-hover.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/src/main/resources/static/images/home/qutama.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/src/main/resources/static/images/home/top-bg.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/src/main/resources/static/scripts/imageselect.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/src/main/resources/static/styles/home.css" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
