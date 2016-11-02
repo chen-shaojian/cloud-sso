@@ -38,9 +38,7 @@
       <module name="cloud-sso" target="1.8" />
       <module name="common" target="1.8" />
       <module name="config" target="1.8" />
-      <module name="data" target="1.8" />
       <module name="discovery" target="1.8" />
-      <module name="dubbo" target="1.8" />
       <module name="login" target="1.8" />
       <module name="monitor" target="1.8" />
       <module name="neo4j" target="1.8" />
