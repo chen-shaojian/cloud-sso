@@ -1,5 +1,6 @@
 package com.test.client.controller;
 
+import com.test.client.service.UserFuture;
 import com.test.common.models.User;
 import com.test.client.service.UserClient;
 import com.test.client.service.UserService;
@@ -10,8 +11,10 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
 
 import java.security.Principal;
+import java.util.concurrent.CompletableFuture;
 
 @Controller
 @RequestMapping("/user")
@@ -22,6 +25,8 @@ public class UserController {
     UserService userService;
     @Autowired
     UserClient userClient;
+    @Autowired
+    UserFuture userFuture;
 
     @RequestMapping("/index")
     public String index(ModelMap model, Principal user) throws Exception{
@@ -43,6 +48,13 @@ public class UserController {
         User user = userService.getUserByName(name);
         model.addAttribute("user",user);
         return "user/show";
+    }
+
+    @RequestMapping(value="/cf/{name}")
+    public CompletableFuture<ModelAndView> usershow(@PathVariable String name) throws Exception{
+        //使用CompletableFuture + Rest + fallbackMethod
+        return  userFuture.getUserByName(name)
+                .thenApply(user -> new ModelAndView("user/show", "user", user));
     }
 
 }

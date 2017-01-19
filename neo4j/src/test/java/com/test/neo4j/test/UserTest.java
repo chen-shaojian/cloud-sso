@@ -9,6 +9,7 @@ import com.test.neo4j.repositories.RoleRepository;
 import com.test.neo4j.repositories.UnitRepository;
 import com.test.neo4j.repositories.UserRepository;
 import com.test.neo4j.services.UserService;
+import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.slf4j.Logger;
@@ -41,7 +42,7 @@ public class UserTest {
     @Autowired
     UserService userService;
 
-    //@Before
+    @Before
     public void initData() {
         userRepository.deleteAll();
         roleRepository.deleteAll();
@@ -127,7 +128,7 @@ public class UserTest {
         List<User> users = userRepository.findByNameLike("");
         Assert.notNull(users);
         for(User user : users){
-            logger.info("==== user ==== name:{}, unit: {}, role: {}",
+            logger.info("\n==== user ==== name:{}, unit: {}, role: {}",
                     user.getName(), user.getUnit().getName(), user.getRoles().iterator().next().getName()
             );
         }

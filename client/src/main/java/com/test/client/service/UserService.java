@@ -14,10 +14,9 @@ public class UserService {
 	 RestTemplate restTemplate;
 	 @Autowired
 	 private UserClient userClient;
-	@Autowired
-	private UserRedis userRedis;
-	private static final String keyHead = "client:getUserByName:";
-
+	 @Autowired
+	 private UserRedis userRedis;
+	 private static final String keyHead = "client:getUserByName:";
 	 
 	 @HystrixCommand(fallbackMethod = "getUserFallback")
 	 public User getUserByName(String name) {
